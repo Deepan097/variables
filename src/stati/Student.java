@@ -17,7 +17,10 @@ class Student {
 		Student s2 = new Student("K1", 002);
 		Student s3 = new Student("K2", 003);
 		Student s4 = new Student("K2", 003);
-
+		Student s5 = new Student("K2", 003);
+		Student s6 = new Student("K5", 002);
+		Student s7 = new Student("K2", 003);
+		Student s8 = new Student("K5", 003);
 		Set<Student> class12 = new LinkedHashSet<Student>();
 		class12.add(s1);
 		class12.add(s2);
